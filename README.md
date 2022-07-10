@@ -6,5 +6,7 @@
 
 #### Technologies included:
 
+<p float="left">
 <img src="./assets/scss.png" alt="drawing" width="40"/>
 <img src="./assets/html.png" alt="drawing" width="40"/>
+</p>
