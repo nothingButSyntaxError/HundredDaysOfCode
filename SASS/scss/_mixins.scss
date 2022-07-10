@@ -1,0 +1,11 @@
+@mixin flexHorizontal($justify) {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justify;
+}
+
+@mixin flexVertical($justify) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justify;
+}

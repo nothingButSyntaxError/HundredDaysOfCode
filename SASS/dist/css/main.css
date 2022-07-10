@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+* .main {
+  background-color: #cccccc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+* .main header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+* .main header .head {
+  width: 70%;
+}
+* .main header .header {
+  height: 5%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  font-weight: 300;
+}
+* .main header .header h2 {
+  color: #121a1c;
+}
+* .main header .header h2:hover {
+  color: white;
+  cursor: pointer;
+}
+* .main .intro {
+  text-align: center;
+}
+* .main .intro .name1 {
+  color: #ffffff;
+}
+* .main .intro .name2 {
+  margin-top: 0.3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+* .main .intro .name2 .firstname {
+  color: white;
+  margin-right: 1%;
+  font-size: 80px;
+  font-weight: bold;
+}
+* .main .intro .name2 .lastname {
+  color: rgb(249, 103, 49);
+  font-size: 80px;
+  font-weight: bold;
+}
+* .main .intro .profession {
+  color: white;
+  margin-top: 10px;
+}
+* .main .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 35px;
+  padding: 15px;
+}
+* .main .socials i {
+  margin-right: 25px;
+  cursor: pointer;
+}
+* .main .socials i:hover {
+  color: white;
+}
+
+hr {
+  color: white;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=main.css.map */

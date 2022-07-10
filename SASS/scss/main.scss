@@ -1,0 +1,77 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+* {
+  margin: 0;
+  font-family: $primary-font;
+  .main {
+    background-color: $primary-color;
+    height: 100vh;
+    @include flexVertical(space-between);
+    header {
+      @include flexHorizontal(flex-start);
+      .head {
+        width: 70%;
+      }
+      .header {
+        height: 5%;
+        padding-top: 20px;
+        @include flexHorizontal(space-evenly);
+        width: 30%;
+        font-weight: map-get($font-weights, thin);
+        h2 {
+          color: $text-color;
+        }
+        h2:hover {
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+    .intro {
+      text-align: center;
+      .name1 {
+        color: #ffffff;
+      }
+      .name2 {
+        margin-top: 0.3%;
+        @include flexHorizontal(center);
+        .firstname {
+          color: white;
+          margin-right: 1%;
+          font-size: 80px;
+          font-weight: bold;
+        }
+        .lastname {
+          color: rgb(249, 103, 49);
+          font-size: 80px;
+          font-weight: bold;
+        }
+      }
+      .profession {
+        color: white;
+        margin-top: 10px;
+      }
+    }
+    .socials {
+      @include flexHorizontal(start);
+      font-size: 35px;
+      padding: 15px;
+      i {
+        margin-right: 25px;
+        cursor: pointer;
+      }
+      i:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+hr {
+  color: white;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 5px;
+}
